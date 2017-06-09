@@ -6,6 +6,7 @@ h3 a {
 }
 .main {
 	padding-left: 20px;
+	display: grid;
 }
 .movielist {
 	background-color: #0F1344;
@@ -119,6 +120,9 @@ li {
 	line-height: 3;
 }
 @media (min-width: 545px) {
+	.main {
+		grid-template-columns: 33.333% 33.333% 1fr;
+	}
 	.movielist {
 		grid-template-columns: 100%;
 		grid-template-rows: 70% 33%;
