@@ -157,7 +157,7 @@ li {
 		grid-template-rows: 100%;
 		/*width: 90vw;*/
 		margin: 0 5vw 20 5vw;
-		height: 50vw;
+		height: 55vw;
 	}
 	.train {
 	  grid-row: 1/2;
